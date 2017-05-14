@@ -1,0 +1,59 @@
+	var alreadyUsed =  model.wordSubmissions.indexOf(word)>-1;
+    
+    var alreadyUsed = function() {for(var i=0;i<wordSubmissions.length;i++){
+      if model.wordsubmissions[i][0] == word{
+        return model.wordSubmissions.indexOf(word)>-1;
+        }
+      }
+    };
+    
+    var alreadyUsed = function() {for(var i=0;i<wordSubmissions.length;i++){
+      if model.wordsubmissions[i].word == word{
+        return model.wordSubmissions.indexOf(word)>-1;
+        }
+      }
+    }
+    
+   var alreadyUsed =
+      model.wordSubmissions.forEach(function(word){
+        if (model.wordSubmissions.word === word) {
+          return model.wordSubmissions.indexOf(word)>-1;
+        });
+      }
+ result --> all words return as !IsRealWord
+ ____________________________________________
+     
+ 
+var alreadyUsed = false;
+    for(var i = 0; i < model.wordSubmissions.length; i++){
+      if (model.wordSubmissions[i].word === word){
+        alreadyUsed =  model.wordSubmissions.indexOf(word)>-1;
+      }
+    }
+    
+result --> all words return as !IsRealWord
+____________________________________________
+
+    var alreadyUsed = false;
+    for(var i = 0; i < model.wordSubmissions.length; i++){
+      if (model.wordSubmissions[i].word === word){
+        alreadyUsed =  model.wordSubmissions.indexOf(word)>-1;
+      }
+    }
+result --> all words return as IsRealWord   
+____________________________________________
+  
+        var alreadyUsed = false;
+    for(var i = 0; i < model.wordSubmissions.length; i++){
+      if (model.wordSubmissions[i].word === word){
+        alreadyUsed =  true;
+      }
+    }
+
+
+    var alreadyUsed = false;
+    for(var i = 0; i < model.wordSubmissions.length; i++){
+      if (model.wordSubmissions[i].word === word){
+        alreadyUsed =  true;
+      }
+    }
